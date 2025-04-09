@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#nav h3{
+    font-size: 17px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px;
+    margin: 5px 10px;
+    border-radius: 50px;
+    margin-right: -4px;
+}
+
+#nav i{
+    font-size: 17px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 8px;
+    margin: 5px 10px;
+    border-radius: 50px;
+}
+
+#nav h1{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid #000;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+}
+
+#btn2{
+    border: none;
+    background-color: orangered;
+    color: #fff;
+}
+
+.main>h1{
+    text-transform: uppercase;
+    font-size: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+
+}
+
+ img{
+    height: 430px;
+    width: 370px;
+    object-fit: cover;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#h1{
+    font-weight: 600;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    font-size: 15px;
+}
+.circle{
+    position: absolute;
+    align-items: bottom;
+    align-items: center;
+}
+.social{
+    width: 5%;
+    position: absolute;
+    bottom: 20px;
+    right:50px ;
+    
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+#text{
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
